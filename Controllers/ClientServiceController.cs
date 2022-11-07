@@ -7,6 +7,8 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using RazorPages.Models;
 
+//new controller  added for Ch 11 assigment
+
 namespace RazorPages.Controllers
 {
     public class ClientServiceController : Controller

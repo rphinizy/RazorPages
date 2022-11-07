@@ -34,6 +34,8 @@ namespace RazorPages.Models
                new Contact { ID = 3, Name = "Betty Rubble", ServicesID = 5, ContactEmail = "betts@rubb.com" }
                );
 
+            ///new seed data added for Ch 11 assignemnt
+
             modelBuilder.Entity<Client>().HasData(
                new Client { ID = 1, FirstName = "Flo", LastName = "Schmoe", Username = "Flo", Email = "flo@schmoe.net", Password = "FloSchmoe1234*" },
                new Client { ID = 2, FirstName = "Jo", LastName = "Schmoe", Username = "JoJo", Email = "jojo@schmoe.net", Password = "JoJoSchmoe1234?" },
